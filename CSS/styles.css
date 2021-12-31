@@ -85,6 +85,16 @@ ul {
   background-color: var(--accent-color);
 }
 
+.button.secondary {
+  background-color: var(--secondary-bg-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 /*Portfolio*/
 .portfolio-list .title {
   color: var(--title-text-color);
