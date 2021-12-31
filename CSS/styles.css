@@ -19,6 +19,11 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .address .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -62,6 +67,11 @@ ul {
 .button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+}
+
+/*Portfolio*/
+.portfolio-list .title {
+  color: var(--title-text-color);
 }
 /*цвет основного текста #212121*/
 
