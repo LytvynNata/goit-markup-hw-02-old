@@ -1,10 +1,72 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--title-text-color);
 }
 .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
-.link:hover,
+.site-nav .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+.address .link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+
+/*Hero*/
+
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/*Section*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Features*/
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/*Team*/
+
+.team-list .name {
+  color: var(--title-text-color);
+}
+
+/*Address*/
+.address,
+.address .link-address {
+  color: var(--white-text-color);
+}
+
+/*Button*/
+
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+/*цвет основного текста #212121*/
+
+/*вторичный цвет #757575 */
+
+/*белый FFFFFF*/
+
+/*акцент #2196F3*/ ;
