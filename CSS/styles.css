@@ -72,6 +72,7 @@ ul {
 
 .hero-title {
   color: var(--primary-white-color);
+  background-color: #2f303a;
 
   font-weight: 900;
   font-size: 44px;
