@@ -84,8 +84,7 @@ ul {
 
 .section-title {
   color: var(--title-text-color);
-
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -96,7 +95,6 @@ ul {
 .feature-list .title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   line-height: 1.14;
 }
 
@@ -120,6 +118,7 @@ ul {
 .address {
   color: var(--primary-white-color);
   line-height: 1.71;
+  font-style: normal;
 }
 .address .link-address {
   color: var(--footer-address-color);
