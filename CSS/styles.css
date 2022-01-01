@@ -11,17 +11,37 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo:hover {
+  color: var(--accent-color);
 }
 .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link {
+/* .site-nav .link {
   color: var(--title-text-color);
-}
+} */
+
 .site-nav .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -38,6 +58,7 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+
 ul {
   list-style: none;
 }
@@ -46,29 +67,55 @@ ul {
 
 .hero-title {
   color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 /*Section*/
 
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /*Features*/
 
 .feature-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /*Team*/
 
 .team-list .name {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .profession {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /*Address*/
+
 .address {
   color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .address .link-address {
   color: var(--footer-address-color);
@@ -78,15 +125,30 @@ ul {
 
 .button {
   color: var(--title-text-color);
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .button.secondary {
   background-color: var(--secondary-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button.secondary:hover,
@@ -98,6 +160,17 @@ ul {
 /*Portfolio*/
 .portfolio-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.project {
+  font-size: 16px;
+  line-height: 1.87;
 }
 /*цвет основного текста #212121*/
 
